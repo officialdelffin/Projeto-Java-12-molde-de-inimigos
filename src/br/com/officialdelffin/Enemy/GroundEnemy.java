@@ -7,6 +7,10 @@ package br.com.officialdelffin.Enemy;
 public class GroundEnemy {
 
 
+    // Metodos
+
+    // Sobreescrevendo metodo de ataque para o inimigo terrestre :
+
 
 
 
