@@ -1,4 +1,13 @@
+
+// Pacostes :
 package br.com.officialdelffin.Enemy;
 
-public class FlyingEnemy {
+
+// Classe dos Inimigos Voadores :
+public class FlyingEnemy extends Enemy {
+
+
+
+
+
 }

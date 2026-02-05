@@ -115,7 +115,7 @@ abstract public class Enemy {
     // Metodos de execução :
 
     // O inimigo faz o ataque :
-    public void attacka () {
+    public void attacks () {
 
 
         System.out.println( this.getName() + " efetuou o ataque " );
@@ -134,6 +134,22 @@ abstract public class Enemy {
     }
 
 
+    // Faz a sobrescrita do metodo toString para que possamos exibir uma array ou uma ArrayList :
+    @Override
+    public String toString() {
 
 
+
+        return """
+                
+                Nome do inimigo : %s
+                Tipo : %s
+                Vida : %d
+                ataque : %d
+                defesa : %d
+                
+                """;
+
+
+    }
 }
