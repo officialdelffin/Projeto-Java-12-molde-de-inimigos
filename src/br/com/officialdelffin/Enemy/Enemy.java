@@ -140,15 +140,7 @@ abstract public class Enemy {
 
 
 
-        return """
-                
-                Nome do inimigo : %s
-                Tipo : %s
-                Vida : %d
-                ataque : %d
-                defesa : %d
-                
-                """;
+        return "Nome : " + this.getName() + "\nTipo : " + this.tipo + "\nVida : " + getLife() ;
 
 
     }
