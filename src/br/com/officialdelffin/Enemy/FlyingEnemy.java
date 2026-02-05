@@ -14,7 +14,7 @@ public class FlyingEnemy extends Enemy {
     public void attacks() {
 
 
-        System.out.println( this.getName() + " Atacou o adiversário voando" );
+        System.out.println( this.getName() + " voou e atacou o adversário" );
 
 
     }
